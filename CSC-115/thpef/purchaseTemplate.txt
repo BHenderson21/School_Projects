@@ -1,0 +1,18 @@
+#FULLNAME
+#ADDRESS
+#CITY, #STATE #ZIP
+
+                                            #DATE
+#FIRST,
+
+Thank you for your purchase of $#TRANSACTION.
+Your current balance is now $#BALANCE.
+
+We appreciate your business and look forward to dealing 
+with your company in the future.
+
+
+Sincerely,
+
+
+CSE Parts and Labor

@@ -1,0 +1,18 @@
+John Watson
+221B Baker St
+London, UK L1Z 3BS
+
+                                            25 Dec, 2021
+John,
+
+Thank you for your payment of $231.55.
+Your current balance is now $-231.55.
+
+We appreciate your business and look forward to dealing 
+with your company in the future.
+
+
+Sincerely,
+
+
+CSE Parts and Labor

@@ -1,0 +1,16 @@
+#FULLNAME
+#ADDRESS
+#CITY, #STATE #ZIP
+
+                                            #DATE
+#FIRST,
+
+Your overdue balance is $#BALANCE.
+
+We would appreciate a payment in the near future.
+
+
+Sincerely,
+
+
+CSE Parts and Labor
