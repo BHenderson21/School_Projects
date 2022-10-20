@@ -1,0 +1,14 @@
+**/Debug/*
+**/x64/*
+**/.vs/*
+**/html/*
+*.exe
+*.obj
+*.txt
+*.bin
+*.cvs
+*.data
+*.ppm
+*.pgm
+/thpe1/thpe1.vcxproj.filters
+/thpe1/thpe1.vcxproj.user
