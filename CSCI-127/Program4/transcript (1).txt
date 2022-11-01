@@ -1,0 +1,179 @@
+Python 3.9.1 (v3.9.1:1e5d33e9b9, Dec  7 2020, 12:10:52) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: /Users/danieldefrance/Desktop/presidents/Daniel-DeFrance-Prog04.py
+
+1. Print all presidents
+2. Print president by name
+3. Print president by number
+4. Count presidents with occupation
+5. Print average term length
+6. Quit
+    
+Enter a menu option: 1
+No. 1 (1789) George Washington
+No. 2 (1797) John Adams
+No. 3 (1801) Thomas Jefferson
+No. 4 (1809) James Madison
+No. 5 (1817) James Monroe
+No. 6 (1825) John Quincy Adams
+No. 7 (1829) Andrew Jackson
+No. 8 (1837) Martin Van Buren
+No. 9 (1841) William H. Harrison
+No. 10 (1841) John Tyler
+No. 11 (1845) James K. Polk
+No. 12 (1849) Zachary Taylor
+No. 13 (1850) Millard Fillmore
+No. 14 (1853) Franklin Pierce
+No. 15 (1857) James Buchanan
+No. 16 (1861) Abraham Lincoln
+No. 17 (1865) Andrew Johnson
+No. 18 (1869) Ulysses S. Grant
+No. 19 (1877) Rutherford B. Hayes
+No. 20 (1881) James A. Garfield
+No. 21 (1881) Chester A. Arthur
+No. 22 (1885) Grover Cleveland
+No. 23 (1889) Benjamin Harrison
+No. 24 (1893) Grover Cleveland
+No. 25 (1897) William McKinley
+No. 26 (1905) Theodore Roosevelt
+No. 27 (1909) William H. Taft
+No. 28 (1913) Woodrow Wilson
+No. 29 (1921) Warren G. Harding
+No. 30 (1923) Calvin Coolidge
+No. 31 (1929) Herbert Hoover
+No. 32 (1933) Franklin Roosevelt
+No. 33 (1945) Harry S. Truman
+No. 34 (1953) Dwight D. Eisenhower
+No. 35 (1961) John F. Kennedy
+No. 36 (1963) Lyndon B. Johnson
+No. 37 (1969) Richard Nixon
+No. 38 (1974) Gerald Ford
+No. 39 (1977) Jimmy Carter
+No. 40 (1981) Ronald Raegan
+No. 41 (1989) George Bush
+No. 42 (1993) Bill Clinton
+No. 43 (2001) George W. Bush
+No. 44 (2009) Barack Obama
+No. 45 (2017) Donald Trump
+No. 46 (2021) Joe Biden
+
+1. Print all presidents
+2. Print president by name
+3. Print president by number
+4. Count presidents with occupation
+5. Print average term length
+6. Quit
+    
+Enter a menu option: 2
+Enter a president name: adams
+
+No. 2 (1797) John Adams
+No. 6 (1825) John Quincy Adams
+
+1. Print all presidents
+2. Print president by name
+3. Print president by number
+4. Count presidents with occupation
+5. Print average term length
+6. Quit
+    
+Enter a menu option: 2
+Enter a president name: asdf
+
+No president's name contains 'asdf'
+
+1. Print all presidents
+2. Print president by name
+3. Print president by number
+4. Count presidents with occupation
+5. Print average term length
+6. Quit
+    
+Enter a menu option: 3
+Enter a president number: 5
+
+No. 5 (1817) James Monroe
+
+1. Print all presidents
+2. Print president by name
+3. Print president by number
+4. Count presidents with occupation
+5. Print average term length
+6. Quit
+    
+Enter a menu option: 3
+Enter a president number: 444
+ERROR:  444 is not a choice
+
+President number must be between 1 and 46 
+
+1. Print all presidents
+2. Print president by name
+3. Print president by number
+4. Count presidents with occupation
+5. Print average term length
+6. Quit
+      
+Enter a menu option: 4
+Enter a president occupation: writer
+
+1 writer presidents: Thomas Jefferson
+
+1. Print all presidents
+2. Print president by name
+3. Print president by number
+4. Count presidents with occupation
+5. Print average term length
+6. Quit
+    
+Enter a menu option: 4
+Enter a president occupation: lawyer
+
+25 lawyer presidents: John Adams, Thomas Jefferson, James Madison, James Monroe, John Quincy Adams, Martin Van Buren, John Tyler, James K. Polk, Millard Fillmore, Franklin Pierce, James Buchanan, Abraham Lincoln, Rutherford B. Hayes, Chester A. Arthur, Grover Cleveland, Benjamin Harrison, William McKinley, William H. Taft, Woodrow Wilson, Calvin Coolidge, Franklin Roosevelt, Richard Nixon, Gerald Ford, Bill Clinton, Joe Biden
+
+1. Print all presidents
+2. Print president by name
+3. Print president by number
+4. Count presidents with occupation
+5. Print average term length
+6. Quit
+    
+Enter a menu option: 4
+Enter a president occupation: fireman
+
+0 fireman presidents: 
+
+1. Print all presidents
+2. Print president by name
+3. Print president by number
+4. Count presidents with occupation
+5. Print average term length
+6. Quit
+    
+Enter a menu option: 4
+Enter a president occupation: sheriff
+
+1 sheriff presidents: Grover Cleveland
+
+1. Print all presidents
+2. Print president by name
+3. Print president by number
+4. Count presidents with occupation
+5. Print average term length
+6. Quit
+    
+Enter a menu option: 5
+Average term length, about 5.0 years
+
+1. Print all presidents
+2. Print president by name
+3. Print president by number
+4. Count presidents with occupation
+5. Print average term length
+6. Quit
+    
+Enter a menu option: 6
+Thank you.  Goodbye!
+>>> 

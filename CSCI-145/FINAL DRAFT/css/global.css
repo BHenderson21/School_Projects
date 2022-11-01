@@ -1,0 +1,172 @@
+body {
+  width: 1200px;
+  margin: auto;
+  background-color: #666;
+}
+
+header {
+  background-color: #574b44;
+}
+.container {
+  width: 1200px;
+  background-color: #574b44;
+
+}
+
+.col {
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.w-25 {
+  width: 25%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-75 {
+  width: 75%;
+}
+.w-33 {
+  width: 33.333333%;
+}
+.w-66 {
+  width: 66.6666666%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-10 {
+  width: 10%;
+}
+.w-20 {
+  width: 20%;
+}
+.w-15{
+  width: 15%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-100 {
+  object-fit: fill;
+}
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.semi-centered {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top-centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-centered {
+  position: relative;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 4em;
+  color: white;
+}
+.panel a {
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  border-radius: 2px;
+  padding: 10px;
+}
+.panel {
+  float: right;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+img {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.centertext {
+  text-align: center;
+}
+footer {
+  background-color: #574b44;
+}
+h2 {
+  text-align: center;
+}
+h5 {
+  text-align: left;
+  display: block;
+}
+.border {
+  border: 2px solid white;
+}
+.store_link {
+  background-color: #666;
+  margin: 25px;
+}
+p {
+  font-family: helvetica;
+  margin: 10px;
+  color: white;
+  line-height: 1.5em;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Shippori Antique', sans-serif;
+}
+h2,h3,h4,h5 {
+  color: white;
+}
+.store_link a {
+  font-family: helvetica;
+}
+.buy_button {
+  margin-bottom: 50px;
+}
+
+.fill {
+  object-fit: fill;
+}
+.footermargin {
+  margin-right: 15px;
+}
+.active {
+  font-size: 1.5em;
+  margin: 5px;
+}
+.bottom-padding {
+  margin-bottom: 0px;
+}
+.top-margin {
+  margin-top: 5px;
+}

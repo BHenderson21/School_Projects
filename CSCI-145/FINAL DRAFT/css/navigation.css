@@ -1,0 +1,27 @@
+nav {
+  font-family: 'Shippori Antique', sans-serif;
+  text-align: right;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+
+}
+a:hover {
+  color: lightblue;
+}
+ul {
+  list-style-type: none;
+}
+header li {
+  display: inline-block;
+  color: white;
+  margin: 3px;
+}
+a:visited {
+  text-decoration: none;
+}
