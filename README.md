@@ -1,5 +1,7 @@
 # School_Projects
 Projects done for college classes*
+
+
  
 CSCI 127: Joy and Beauty of Data - MSU Bozeman - Fall 2021 - PYTHON
 
@@ -14,10 +16,14 @@ CSCI 127: Joy and Beauty of Data - MSU Bozeman - Fall 2021 - PYTHON
 
     -Program5: Version of the Cracker Barrel peg game with variavble size, played through the command line.
 
+
+
 CSCI 145A: Intro to Web Design - MSU Bozeman - Fall 2021 - HTML & CSS
 
     -FINAL DRAFT^: Website made for final project for CSCI 145A at MSU Bozeman. Website is a mock store page for an outdoor supplies company.
-    ^Co-Authored by Lucas Bega: 
+    ^Co-Authored by Lucas Bega: lucas.s.bega@gmail.com
+
+
 
 CSC 115: Test Driven Software Development - SDSMT - Spring 2022 - C++
 
@@ -29,9 +35,13 @@ CSC 115: Test Driven Software Development - SDSMT - Spring 2022 - C++
 
     -thpef: Program to mimic a bank system. Stores accounts and their balances, can make payments or add to debt. Reads from and prints to files for continuous storage of accounts and their data.
     
+
+
 CSC 215: Programming Techniques - SDSMT - Fall 2022 - C++
 
     -thpe01: Program to read .ppm images in either an ascii or a binary format, perform one of a list of possible changes (brighten, negate, sharpen, smooth, grayscale, contrast), and write the image back out to a 
     .ppm file (or .pgm in the case of the grayscale or contrast operations) in either an ascii or a binary format.
+
+
 
 *Note: This is not a comprehensive list of the code I wrote in college, but a collection of the projects I feel best showcase the skills I developed through these classes.
