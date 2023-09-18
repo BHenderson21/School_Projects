@@ -71,18 +71,9 @@ bool openInput(ifstream& fin, string fileName)
  *  @endverbatim
 ************************************************************************/
 
-bool openOutput(ofstream& fout, string fileName, string option)
+bool openOutput(ofstream& fout, string fileName)
 {
-    string fileExt = "";
-    if (option == "--grayscale" || option == "--contrast")
-    {
-        fileExt = ".pgm";
-    }
-    else
-    {
-        fileExt = ".ppm";
-    }
-    fout.open(fileName + fileExt, ios::out | ios::binary);
+    fout.open(fileName, ios::out | ios::binary);
     if (!fout.is_open())
     {
         return false;
@@ -147,7 +138,7 @@ void cleanUp(ifstream& fin, ofstream& fout)
 ************************************************************************/
 
 // *****READ FILE*****
-void readFile(ifstream& fin, image& image)
+void readFile(ifstream& fin, image& image, string& type)
 {
     string temp;
     pixel tempPix;
@@ -174,6 +165,7 @@ void readFile(ifstream& fin, image& image)
     i = 0;
     if (image.magicNumber == "P6")
     {
+        type = "--binary";
         temp = "";
         i = 0;
         while (i < image.rows)
@@ -196,6 +188,7 @@ void readFile(ifstream& fin, image& image)
     }
     else if (image.magicNumber == "P3")
     {
+        type = "--ascii";
         int r, g, b;
         while (i < image.rows)
         {

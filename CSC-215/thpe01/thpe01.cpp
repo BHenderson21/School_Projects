@@ -172,6 +172,8 @@ int main(int argc, char** argv)
         }
         else
         {
+            cout << "Invalid Startup" << endl;
+            printUsage();
             exit(0);
         }
     }
@@ -194,6 +196,8 @@ int main(int argc, char** argv)
         }
         else
         {
+            cout << "Invalid Startup" << endl;
+            printUsage();
             exit(0);
         }
     }
@@ -216,6 +220,8 @@ int main(int argc, char** argv)
         }
         else
         {
+            cout << "Invalid Startup" << endl;
+            printUsage();
             exit(0);
         }
     }
@@ -327,7 +333,7 @@ void printUsage()
  * Verifys the validity of the operation option given.
  *
  *
- * @param[in] option - Operation option provided.
+ * @param[in] option - string containing operation option provided.
  *
  * @returns True if the option provided is a member of the options allowed
  *          False if the option provided is not a member of the options allowed

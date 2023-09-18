@@ -15,15 +15,17 @@ using namespace std;
 #ifndef __NETPBM__H__
 #define __ NETPBM__H__
 typedef unsigned char pixel;
+
+// Structure to hold all of the information for an image
 struct image 
 { 
-    string magicNumber;
-    string comment;
-    int rows;
-    int cols;
-    pixel** redgray; 
-    pixel** green;
-    pixel** blue;
+    string magicNumber; // Magic number denoting ascii or binary (P3 or P6) and if it is grayscale (P2 or P5)
+    string comment; // Comments stored with the image
+    int rows; // Number of rows of pixels
+    int cols; // Number of columns of pixels
+    pixel** redgray; // R values for pixels
+    pixel** green; // G values for pixels
+    pixel** blue; // B values for pixels
 };
 
 /************************************************************************

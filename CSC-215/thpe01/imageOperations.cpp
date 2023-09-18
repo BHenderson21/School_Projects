@@ -51,7 +51,7 @@ void negateImage(image& image)
  *
  *
  * @param[in] image - image structure to be brightened.
- *            value - value to be used to brighten/dim.
+ *            value - int value to be used to brighten/dim.
  *
  * @returns none
  *
@@ -259,7 +259,7 @@ void sharpen(image& image)
  * Ignores border pixels, setting them to black.
  *
  *
- * @param[in] image - image structure to be sharpened.
+ * @param[in] image - image structure to be smoothed.
  *
  * @returns none
  *
@@ -326,7 +326,7 @@ void smooth(image& image)
  * to each pixel and storing them in a single array.
  * Formula - (0.3 * R) + (0.6 * G) + (0.1 * B)
  *
- * @param[in] image - image structure to be sharpened.
+ * @param[in] image - image structure to be made grayscale.
  *
  * @returns none
  *
@@ -373,7 +373,7 @@ void grayscale(image& image)
  * Formula - scale = 255/(max-min)
  *           pixel = scale * (pixel - min)
  *
- * @param[in] image - image structure to be sharpened.
+ * @param[in] image - image structure to be made grayscale and contrasted.
  *
  * @returns none
  *
