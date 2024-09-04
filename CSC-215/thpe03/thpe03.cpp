@@ -33,7 +33,7 @@
  *          containing a magic number, which indicates the format of the
  *          image data (ascii or binary, and wether or not it's grayscale),
  *          any comments that the .ppm file contains, the resolution of the
- *          image in rows and collumns, and three 2d arrays containing the
+ *          image in number of rows and collumns, and three 2d arrays containing the
  *          individual RGB values for the pixels.
  *
  *          Next, based on the given pixel coordinates (row and column),
