@@ -7,7 +7,6 @@ public class FreeLightRail extends LightRail
         this.name = name;
         this.capacity = capacity;
         this.fee = fee;
-        this.tickets = new Ticket[capacity];
     }
 
     public FreeLightRail()
@@ -24,18 +23,16 @@ public class FreeLightRail extends LightRail
     {
         this.capacity = capacity;
         this.fee = fee;
-        this.tickets = new Ticket[capacity];
     }
 
     public FreeLightRail(String name, int capacity)
     {
         this.name = name;
         this.capacity = capacity;
-        this.tickets = new Ticket[capacity];
     }
 
 
-    public static int FULL_THRESHOLD;
+    public static int FULL_THRESHOLD = 90;
 
 
     public void markExit(int id)
