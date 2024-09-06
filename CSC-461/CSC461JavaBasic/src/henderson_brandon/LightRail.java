@@ -68,8 +68,6 @@ public class LightRail
             Ticket ticket = new Ticket(nextID, distance);
             this.tickets.add(ticket);
             this.currentDistance = distance;
-            if(this.isFull())
-                this.isFullDistance += distance;
             this.nextID++;
             return ticket.id;
         }
@@ -88,6 +86,8 @@ public class LightRail
                     this.currentDistance = distance;
                     double profit = ((double) (this.currentDistance - this.tickets.get(i).entryDistance) / 4) * this.fee;
                     this.currentProfit += profit;
+                    if(this.isFull())
+                        this.isFullDistance += (distance - this.tickets.get(i).entryDistance);
                     this.tickets.remove(i);
                     return;
                 }
@@ -104,7 +104,7 @@ public class LightRail
 
     public int getIsFullDistance()
     {
-        return 1;
+        return this.isFullDistance;
     }
 
     public int getCapacity()
@@ -128,8 +128,13 @@ public class LightRail
         if(this.isFull())
             currentCapacity = "(FULL)";
         else
-            currentCapacity = "(" + ((double)this.tickets.size()/this.capacity) + ")";
-        DecimalFormat df = new DecimalFormat("#.##");
+        {
+            double result = ((double)this.tickets.size()/this.capacity) * 100;
+            if(result % 1 == 0)
+                currentCapacity =   "(" + String.format("%d", (int) result) + "%)";
+            else
+                currentCapacity = "(" + String.format("%.1f", result) + "%)";
+        }
         return "Status for " + this.getName() + " line: " + this.tickets.size() + " tickets " + currentCapacity + " Money Collected: $" + String.format("%.2f", this.getProfit());
     }
 }
