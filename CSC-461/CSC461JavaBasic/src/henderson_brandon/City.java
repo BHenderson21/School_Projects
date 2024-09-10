@@ -1,10 +1,18 @@
 package henderson_brandon;
 
+import java.util.ArrayList;
+
 public class City
 {
+    private ArrayList<LightRail> lines;
+    private int nextID = 0;
+
     public int getTicketsInCity()
     {
-        return -1;
+        int tickets = 0;
+        for(int i = 0; i < lines.size(); i++)
+            tickets += lines.get(i).getTicketsInLine();
+        return tickets;
     }
 
     public int getIsFullDistance()
@@ -19,7 +27,7 @@ public class City
 
     public int add(LightRail rail)
     {
-        return -1;
+        this.lines.add(rail);
     }
 
     public int markEntry(int line, int distance)
@@ -42,4 +50,9 @@ public class City
         return null;
     }
 
+
+    public String toString()
+    {
+        System.out.println("City status:");
+    }
 }

@@ -13,6 +13,7 @@ public class LightRail
         this.fee = fee;
     }
 
+
     public LightRail()
     {
 
@@ -41,12 +42,12 @@ public class LightRail
     public int capacity;
     public double fee = 1.5;
     public ArrayList<Ticket> tickets = new ArrayList<Ticket>();
+    public int currentDistance = 0;
+    public int isFullDistance = 0;
 
     // Properties - PRIVATE
-    private int currentDistance = 0;
     private int nextID = 0;
     private double currentProfit = 0;
-    private int isFullDistance = 0;
 
     // Methods
     public String getName()
@@ -65,6 +66,8 @@ public class LightRail
             return -1;
         else
         {
+            if(this.isFull())
+                this.isFullDistance += (distance - this.currentDistance);
             Ticket ticket = new Ticket(nextID, distance);
             this.tickets.add(ticket);
             this.currentDistance = distance;
@@ -79,15 +82,15 @@ public class LightRail
             return;
         else
         {
+            if(this.isFull())
+                this.isFullDistance += (distance - this.currentDistance);
             for(int i = 0; i < this.tickets.size(); i++)
             {
                 if(this.tickets.get(i).id == id)
                 {
-                    this.currentDistance = distance;
-                    double profit = ((double) (this.currentDistance - this.tickets.get(i).entryDistance) / 4) * this.fee;
+                    double profit = (Math.floor((double) (distance - this.tickets.get(i).entryDistance) / 4)) * this.fee;
                     this.currentProfit += profit;
-                    if(this.isFull())
-                        this.isFullDistance += (distance - this.tickets.get(i).entryDistance);
+                    this.currentDistance = distance;
                     this.tickets.remove(i);
                     return;
                 }
