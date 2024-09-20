@@ -2,11 +2,18 @@ package henderson_brandon;
 
 import java.util.ArrayList;
 
+//Additional OOP  requirements
+//    toString properly extended				        complete
+//    Constructors properly handled			            complete
+//    Access properly handled (code style requirement)	complete
+//
+//Last tier completed: ALL (11)
+
 public class City
 {
     private ArrayList<LightRail> lines = new ArrayList<LightRail>();
+
     private int allFullDistance = 0;
-    private int currentDistance = 0;
     private Boolean isCurrentlyFull = false;
     private int startFullDistance = 0;
 
@@ -39,9 +46,15 @@ public class City
 
     public int markEntry(int line, int distance)
     {
-        this.currentDistance = distance;
         int id = this.lines.get(line).markEntry(distance);
-        if(!this.isCurrentlyFull && this.isFull())
+        if(id == -1)
+            return id;
+        if(this.isCurrentlyFull)
+        {
+            this.allFullDistance += (distance - startFullDistance);
+            this.startFullDistance = distance;
+        }
+        else if(this.isFull())
         {
             this.isCurrentlyFull = true;
             this.startFullDistance = distance;
@@ -59,13 +72,16 @@ public class City
         return true;
     }
 
-    public void markExit(int line, int id, int distance)
+    public void markExit(int line, int distance, int id)
     {
-        this.lines.get(line).markExit(id, distance);
-        if(this.isCurrentlyFull && !this.isFull())
+        this.lines.get(line).markExit(distance, id);
+        if(this.isCurrentlyFull)
         {
-            System.out.println("Add to full distance: " + (this.startFullDistance - distance));
-            this.isCurrentlyFull = false;
+            this.allFullDistance += (distance - startFullDistance);
+            if(this.isFull())
+                this.startFullDistance = distance;
+            else
+                this.isCurrentlyFull = false;
         }
     }
 

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class LightRail
 {
-    // Constructor
+    // GRADING: CONSTRUCTION
     public LightRail(String name, int capacity, double fee)
     {
         this.name = name;
@@ -13,41 +13,33 @@ public class LightRail
         this.fee = fee;
     }
 
-
-    public LightRail()
-    {
-
-    }
-
     public LightRail(int capacity)
     {
-        this.capacity = capacity;
+        this("test", capacity, 1.5);
     }
 
     public LightRail(int capacity, double fee)
     {
-        this.capacity = capacity;
-        this.fee = fee;
+        this("test", capacity, fee);
     }
 
     public LightRail(String name, int capacity)
     {
-        this.name = name;
-        this.capacity = capacity;
+        this(name, capacity, 1.5);
     }
 
     // Properties - PUBLIC
-    public String name = "test";
-    public int id;
-    public int capacity;
-    public double fee = 1.5;
-    public ArrayList<Ticket> tickets = new ArrayList<Ticket>();
     public int currentDistance = 0;
     public int isFullDistance = 0;
+    public ArrayList<Ticket> tickets = new ArrayList<Ticket>();
+    public static int FULL_THRESHOLD = 90;
 
     // Properties - PRIVATE
     private int nextID = 0;
     private double currentProfit = 0;
+    private String name = "test";
+    private int capacity;
+    private double fee = 1.5;
 
     // Methods
     public String getName()
@@ -100,7 +92,7 @@ public class LightRail
 
     public boolean isFull()
     {
-        if(((double)this.tickets.size() / this.capacity) >= 0.9)
+        if(((double)this.tickets.size() / this.capacity) >= FULL_THRESHOLD*0.01)
             return true;
         return false;
     }
@@ -138,6 +130,11 @@ public class LightRail
             else
                 currentCapacity = "(" + String.format("%.1f", result) + "%)";
         }
-        return "Status for " + this.getName() + " line: " + this.tickets.size() + " tickets " + currentCapacity + " Money Collected: $" + String.format("%.2f", this.getProfit());
+        return "Status for " + this.getName() + " line: " + this.tickets.size() + " tickets " + currentCapacity + this.getMoney();
+    }
+
+    public String getMoney()
+    {
+        return " Money Collected: $" + String.format("%.2f", this.getProfit());
     }
 }

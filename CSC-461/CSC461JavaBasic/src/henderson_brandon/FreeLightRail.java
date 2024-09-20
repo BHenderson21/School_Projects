@@ -2,37 +2,15 @@ package henderson_brandon;
 
 public class FreeLightRail extends LightRail
 {
-    public FreeLightRail(String name, int capacity, double fee)
-    {
-        this.name = name;
-        this.capacity = capacity;
-        this.fee = fee;
-    }
-
-    public FreeLightRail()
-    {
-
-    }
-
     public FreeLightRail(int capacity)
     {
-        this.capacity = capacity;
-    }
-
-    public FreeLightRail(int capacity, double fee)
-    {
-        this.capacity = capacity;
-        this.fee = fee;
+        super(capacity);
     }
 
     public FreeLightRail(String name, int capacity)
     {
-        this.name = name;
-        this.capacity = capacity;
+        super(name, capacity);
     }
-
-
-    public static int FULL_THRESHOLD = 90;
 
     public void markExit(int distance)
     {
@@ -57,17 +35,12 @@ public class FreeLightRail extends LightRail
 
     public String toString()
     {
-        String currentCapacity;
-        if(this.isFull())
-            currentCapacity = "(FULL)";
-        else
-        {
-            double result = ((double)this.tickets.size()/this.capacity) * 100;
-            if(result % 1 == 0)
-                currentCapacity =   "(" + String.format("%d", (int) result) + "%)";
-            else
-                currentCapacity = "(" + String.format("%.1f", result) + "%)";
-        }
-        return "Status for " + this.getName() + " line: " + this.tickets.size() + " tickets " + currentCapacity + " FREE";
+        return super.toString();
+    }
+
+    @Override
+    public String getMoney()
+    {
+        return " FREE";
     }
 }
