@@ -1,0 +1,143 @@
+
+[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m
+[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m
+[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m
+[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m
+[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m
+[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m
+[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m
+
+1) Set Tile
+2) Make Default Paddock
+3) Count Zones
+4) Set Tile Color
+5) Grass Health
+6) Time Step
+0) Quit
+
+Choice:> 
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m⛞[0m
+[30m♕[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⚶[0m[30m⚶[0m[30m⛞[0m
+[30m⛆[0m[30m⛆[0m[30m⛞[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⛆[0m
+[30m⚶[0m[30m⛞[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⚶[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m♞[0m
+
+1) Set Tile
+2) Make Default Paddock
+3) Count Zones
+4) Set Tile Color
+5) Grass Health
+6) Time Step
+0) Quit
+
+Choice:> Input tile type 1) plants 2) horse 3) water 4) empty:> Index is out of specified range
+
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m⛞[0m
+[30m♕[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⚶[0m[30m⚶[0m[30m⛞[0m
+[30m⛆[0m[30m⛆[0m[30m⛞[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⛆[0m
+[30m⚶[0m[30m⛞[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⚶[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m♞[0m
+
+1) Set Tile
+2) Make Default Paddock
+3) Count Zones
+4) Set Tile Color
+5) Grass Health
+6) Time Step
+0) Quit
+
+Choice:> Input tile type 1) plants 2) horse 3) water 4) empty:> Index is out of specified range
+
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m⛞[0m
+[30m♕[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⚶[0m[30m⚶[0m[30m⛞[0m
+[30m⛆[0m[30m⛆[0m[30m⛞[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⛆[0m
+[30m⚶[0m[30m⛞[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⚶[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m♞[0m
+
+1) Set Tile
+2) Make Default Paddock
+3) Count Zones
+4) Set Tile Color
+5) Grass Health
+6) Time Step
+0) Quit
+
+Choice:> Input tile type 1) plants 2) horse 3) water 4) empty:> Please input an integer
+
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m⛞[0m
+[30m♕[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⚶[0m[30m⚶[0m[30m⛞[0m
+[30m⛆[0m[30m⛆[0m[30m⛞[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⛆[0m
+[30m⚶[0m[30m⛞[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⚶[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m♞[0m
+
+1) Set Tile
+2) Make Default Paddock
+3) Count Zones
+4) Set Tile Color
+5) Grass Health
+6) Time Step
+0) Quit
+
+Choice:> Input tile type 1) plants 2) horse 3) water 4) empty:> Input color 1) red 2) orange 3) blue 4) black:> Index is out of specified range
+
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m⛞[0m
+[30m♕[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⚶[0m[30m⚶[0m[30m⛞[0m
+[30m⛆[0m[30m⛆[0m[30m⛞[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⛆[0m
+[30m⚶[0m[30m⛞[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⚶[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m♞[0m
+
+1) Set Tile
+2) Make Default Paddock
+3) Count Zones
+4) Set Tile Color
+5) Grass Health
+6) Time Step
+0) Quit
+
+Choice:> Input tile type 1) plants 2) horse 3) water 4) empty:> Input color 1) red 2) orange 3) blue 4) black:> Index is out of specified range
+
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m⛞[0m
+[30m♕[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⚶[0m[30m⚶[0m[30m⛞[0m
+[30m⛆[0m[30m⛆[0m[30m⛞[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⛆[0m
+[30m⚶[0m[30m⛞[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⚶[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m♞[0m
+
+1) Set Tile
+2) Make Default Paddock
+3) Count Zones
+4) Set Tile Color
+5) Grass Health
+6) Time Step
+0) Quit
+
+Choice:> Input tile type 1) plants 2) horse 3) water 4) empty:> Input color 1) red 2) orange 3) blue 4) black:> Please input an integer
+
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m♕[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m⛞[0m
+[30m♕[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⚶[0m[30m⚶[0m[30m⛞[0m
+[30m⛆[0m[30m⛆[0m[30m⛞[0m[30m⛞[0m[30m⛆[0m[30m⛆[0m[30m⛆[0m
+[30m⚶[0m[30m⛞[0m[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m♕[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⛞[0m[30m⚶[0m
+[30m♕[0m[30m⛞[0m[30m⛞[0m[30m♕[0m[30m♞[0m[30m⛞[0m[30m♞[0m
+
+1) Set Tile
+2) Make Default Paddock
+3) Count Zones
+4) Set Tile Color
+5) Grass Health
+6) Time Step
+0) Quit
+
+Choice:> 
